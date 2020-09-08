@@ -1,95 +1,32 @@
 {
-  "window.zoomLevel": 1,
-  "explorer.confirmDragAndDrop": false,
-  "files.autoSave": "off",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx",
-    "javascript": "html"
-  },
-  "explorer.confirmDelete": false,
-  "dart.flutterSdkPath": "/Users/tigranmuradyan/Desktop/Development/flutter",
-  "python.pythonPath": "/usr/local/bin/python3",
-  "python.linting.pylintEnabled": false,
-  "python.formatting.provider": "autopep8",
-  "java.errors.incompleteClasspath.severity": "ignore",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "python.jediEnabled": false,
-  "[css]": {
-    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
-  },
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "remimarsal.prettier-now"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorCustomizations": {},
-  "materialTheme.accent": "Remove accents",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.formatOnSave": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.defaultFormatter": "Dart-Code.dart-code",
-  "[scss]": {},
-  "[cpp]": {},
-  "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "json.schemas": [],
-  "workbench.statusBar.visible": true,
-  "[dart]": {
+    "window.zoomLevel": 1,
+    "editor.fontSize": 13,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "dart.openDevTools": "flutter",
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
     "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.rulers": [80],
-    "editor.selectionHighlight": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "explorer.confirmDelete": false,
+    "php-docblocker.qualifyClassNames": true,
+    "php-docblocker.returnGap": true,
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "git.confirmSync": false,
+    "workbench.startupEditor": "newUntitledFile",
     "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
-  },
-  "files.associations": {
-    ".blade.php": "html",
-    ".tpl": "html"
-  },
-  "mssql.shortcuts": {
-    "_comment": "Short cuts must follow the format (ctrl)+(shift)+(alt)+[key]",
-    "event.toggleResultPane": "ctrl+alt+R",
-    "event.focusResultsGrid": "ctrl+alt+G",
-    "event.toggleMessagePane": "ctrl+alt+Y",
-    "event.prevGrid": "ctrl+up",
-    "event.nextGrid": "ctrl+down",
-    "event.copySelection": "ctrl+C",
-    "event.copyWithHeaders": "",
-    "event.copyAllHeaders": "",
-    "event.maximizeGrid": "",
-    "event.selectAll": "ctrl+A",
-    "event.saveAsJSON": "",
-    "event.saveAsCSV": "",
-    "event.saveAsExcel": ""
-  },
-  "[php]": {
-    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
-  },
-  "editor.formatOnSave": true,
-  "dart.openDevTools": "flutter",
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "dart.debugExternalLibraries": false,
-  "dart.debugSdkLibraries": false
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
