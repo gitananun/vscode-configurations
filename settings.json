@@ -1,4 +1,7 @@
 {
+    "jshint.options": {
+        "esversion": 8,
+    },
     "window.zoomLevel": 1,
     "editor.fontSize": 13,
     "kite.showWelcomeNotificationOnStartup": false,
@@ -28,5 +31,9 @@
     "git.confirmSync": false,
     "workbench.startupEditor": "newUntitledFile",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "extensions.ignoreRecommendations": false
 }
